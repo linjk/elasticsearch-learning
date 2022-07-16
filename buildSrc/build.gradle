@@ -167,8 +167,8 @@ if (project != rootProject) {
   apply plugin: 'elasticsearch.publish'
 
   allprojects {
-    targetCompatibility = 10
-    sourceCompatibility = 10
+    targetCompatibility = 14
+    sourceCompatibility = 14
   }
 
   // groovydoc succeeds, but has some weird internal exception...
